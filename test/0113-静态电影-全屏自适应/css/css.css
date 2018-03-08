@@ -1,0 +1,83 @@
+@charset "utf-8";
+html{ width: 100%; height:100%; overflow-x: hidden; overflow-y: auto }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { padding: 0; margin: 0; }
+ol, ul, dl { list-style: none; }
+body { height:100%; max-height:1000px; font: 12px/1.6 "Microsoft YaHei", simsun, tahoma; color: #fff; background:#000; position:relative; filter:}
+img { border: none }
+table { border-collapse: collapse; border-spacing: 0 }
+input, textarea, select { font: 12px "Microsoft YaHei", simsun, tahoma; outline: none }
+a { color: #fff; text-decoration: none; outline:none}
+a:hover { text-decoration: underline;  }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; font-size: 100% }
+.clearfix:after { visibility: hidden; display: block; content: ""; clear: both; font-size: 0; height: 0; }
+.clearfix { zoom: 1; }
+.clear { clear: both }
+.hidden { line-height: 99999px; overflow: hidden }
+.relative { position: relative }
+.left { float: left }
+.right { float: right }
+.wrapper { width: 1002px; margin: 0 auto }
+
+.main{ padding-left:0; overflow:hidden}
+.item{ float:left; background:#000; width:20%; position:relative; overflow:hidden;border-right:1px solid #fff}
+.item img.cj{ display:block; position:absolute; left:50%; top:0;}
+
+.item5{ border:0}
+
+
+.side-bar{ width:131px; height:100%; background:url(http://img1.91huo.cn/mykd/img/2015/01/19/02/side-nav.png) no-repeat; position:absolute; left:-131px; top:0; z-index:10000}
+h1{ background:url(http://img1.91huo.cn/mykd/img/2015/01/19/02/icon.png) no-repeat; width:79px; height:79px; line-height:99999px; overflow:hidden; margin:10px 0 5px 5px}
+h1 a{ display:block; height:79px;}
+h2{ background:url(http://img1.91huo.cn/mykd/img/2015/01/19/02/ti.jpg) no-repeat; width:88px; height:52px;  line-height:99999px; overflow:hidden}
+.btns{ width:39px; height:100px; background:url(http://img1.91huo.cn/mykd/img/2015/01/19/02/spr.png) no-repeat 0 -96px; margin-top:20px;}
+.btns li{ width:39px; height:50px; position:relative; z-index:1000; cursor:pointer}
+.btns li a{ display:none;width: 150px; height: 45px;}
+.ios a{ background:url(http://img1.91huo.cn/mykd/img/2015/01/19/02/spr.png) 0 0}
+.az a{ background:url(http://img1.91huo.cn/mykd/img/2015/01/19/02/spr.png) 0 -47px; position:relative; top:5px}
+
+.sl{ display:block; width:90%; position:absolute; left:-105%; bottom:30%}
+.play{ position:absolute; right:-100%; bottom:80%; width:10%; cursor:pointer}
+.play:hover{ width:12%}
+.grey{	
+filter: grayscale(1);	
+-webkit-filter: grayscale(1);	
+-moz-filter: grayscale(100%);	
+-ms-filter: grayscale(100%);	
+-o-filter: grayscale(100%);	
+filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");	
+filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+
+ visibility:visible}
+
+.layer{ position:fixed; left:0; top:0; width:100%; height:100%; z-index:10000; background:#000; opacity:0.5; filter:alpha(opacity=50); display:block}
+.video-box{ width:800px; height:450px; padding:5px; background:#000; position:fixed; left:50%; top:-100%; margin:-225px 0 0 -400px; z-index:10001; }
+.tc-close{ width:40px; height:40px; text-align:center; line-height:40px; font-size:30px; position:absolute; right:-40px; top:0; background:#000}
+
+.ewm-box{ width:80px; position:absolute; left:5px; bottom:10px}
+.ewm-box img{ width:80px}
+.btn-back{ display:block;width: 77px; height: 20px; margin:10px auto 0; background:url(http://img1.91huo.cn/mykd/img/2015/01/19/02/spr.png) no-repeat -73px -96px}
+.btn-back:hover{ background-position:-73px -120px;}
+
+.layer-mod{ width:52%; height:100%; position:absolute; left:50%; margin-left:-26%; top:0px; z-index:10002;}
+
+.logo-big{ width:41.6%; margin:0 auto; text-align:center}
+.logo-big img{ width:0%;}
+
+.mod-wz{ width:100%; margin:0 auto; height:39%; position:relative; padding-top:8%}
+
+.bs{ width:100%;  overflow:hidden; position:absolute; left:0;top:0}
+.bs img,.zi1 img,.zi2 img{display:block;width:100%;}
+.bs img{ width:0%}
+
+.zi1{ width:75%; position:relative; margin:0 auto; left:-200%}
+.zi2{ width:83%; position:relative; margin:-2% auto; right:-200%}
+
+.loading{ background:#fdfdfd; width:100%; height:100%; position:absolute; left:0; top:0; z-index:100000; color:#000}
+.loading p{ padding-top:30px}
+.loading-cont{ width:330px; height:280px; position:absolute; left:50%; top:50%; margin:-140px 0 0 -165px}
+
+
+
+
+
+
